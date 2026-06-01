@@ -1,0 +1,36 @@
+.stat-card {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.stat-icon {
+  font-size: 32px;
+}
+
+.stat-content {
+  flex: 1;
+}
+
+.stat-title {
+  font-size: 12px;
+  color: #999;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin: 5px 0 0 0;
+}
+
+.stat-blue .stat-value { color: #2196F3; }
+.stat-green .stat-value { color: #4CAF50; }
+.stat-purple .stat-value { color: #9C27B0; }
+.stat-red .stat-value { color: #F44336; }

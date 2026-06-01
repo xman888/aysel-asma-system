@@ -1,0 +1,26 @@
+.sales-chart {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.sales-chart h3 {
+  margin: 0 0 15px 0;
+  color: #333;
+}
+
+.chart-placeholder {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f9f9f9;
+  border-radius: 5px;
+  color: #999;
+}
+
+.chart-placeholder p {
+  margin: 5px 0;
+  font-size: 14px;
+}

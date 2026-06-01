@@ -1,0 +1,127 @@
+.invoice-preview {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.invoice-preview h3 {
+  color: #333;
+  margin: 0 0 15px 0;
+}
+
+.invoice-items {
+  margin-bottom: 15px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.items-table th {
+  background: #f0f0f0;
+  padding: 10px;
+  text-align: right;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+}
+
+.items-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.btn-remove {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.no-items {
+  color: #999;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 14px;
+}
+
+.invoice-summary {
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.summary-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.summary-row span {
+  margin: 0;
+}
+
+.summary-total {
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid #ddd;
+  padding-top: 10px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #333;
+}
+
+.payment-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.payment-section .form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.payment-section label {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #333;
+  font-size: 14px;
+}
+
+.payment-section select,
+.payment-section input {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.btn-create-invoice {
+  width: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-create-invoice:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.btn-create-invoice:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}

@@ -1,0 +1,79 @@
+.table-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.customers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customers-table thead {
+  background: #f0f0f0;
+}
+
+.customers-table th {
+  padding: 15px;
+  text-align: right;
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+}
+
+.customers-table td {
+  padding: 15px;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+}
+
+.customers-table tbody tr:hover {
+  background: #f9f9f9;
+}
+
+.badge {
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.badge-regular {
+  background: #e0e0e0;
+  color: #333;
+}
+
+.badge-vip {
+  background: #ffc107;
+  color: #333;
+}
+
+.badge-wholesale {
+  background: #4CAF50;
+  color: white;
+}
+
+.debt {
+  color: #f44336;
+  font-weight: 600;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.no-data {
+  text-align: center;
+  padding: 30px;
+  color: #999;
+}
